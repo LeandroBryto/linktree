@@ -1,0 +1,33 @@
+.linksList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  padding: 0;
+
+  li {
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      display: block;
+      font-size: 16px;
+      color: #373737;
+      background-color: white;
+      padding: 24px 12px; // Menos padding para melhor adaptação
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); // Sombra mais suave
+      transition: transform 0.3s;
+
+      &:hover {
+        transform: scale(1.02);
+        background-color: #f5f5f5;
+      }
+
+      &:focus {
+        outline: 2px solid #007bff; // Melhor acessibilidade
+        outline-offset: 4px;
+      }
+    }
+  }
+}
