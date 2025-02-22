@@ -19,7 +19,7 @@ Este projeto é um site personalizado de links, permitindo que usuários gerenci
 1. Entre no diretório do projeto:
 
     ```bash
-    cd seu-repositorio
+    cd linktree-plus
     ```
 
 2. Instale as dependências:
